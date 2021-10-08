@@ -22,7 +22,7 @@
       <!-- When clicking "Add Task" a new task with the entered text should be added -->
       <input type="text" v-model="userInput">
       <button @click="addTask">Add Task</button>
-      <ul v-show="showList & tasks.length > 0">
+      <ul v-if="showList & tasks.length > 0">
         <!-- 2) Output the list of tasks here -->
         <!-- Consider binding a key to every item in a list -->
         <!-- Use an id (a better key) or another unique identification critera for each task -->
