@@ -14,7 +14,7 @@ const app = Vue.createApp({
             if (this.tasks.length > 0) {
                 this.showList = !this.showList;
             }
-        }
+        },
     }
 });
 
